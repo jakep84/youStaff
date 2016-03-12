@@ -3,6 +3,8 @@ navbar*/
 .navbar {
     background: linear-gradient(white, grey);
     box-shadow: 0 0 10px #333;
+    text-align:right;
+    list-sytle-type: none;
 }
 
 .navbar-content {
@@ -15,8 +17,8 @@ navbar*/
 .navbar-list {
     float: right;
     margin-top: 5px;
-}
 
+}
 .navbar-brand {
     padding: 0;
 }
