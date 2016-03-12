@@ -17,6 +17,7 @@ foot-grey-#9B9B9B
 .navbar {
     background-color:#FFF;
     color:#9B9B9B;
+    padding: 0px 39px;
 }
 .nav, .nav-tabs {
     float: right;
@@ -39,7 +40,6 @@ a {
     margin-top: 23px;
     color:#9B9B9B;
 }
-
 /*
 .navbar {
     background:white;
@@ -115,6 +115,9 @@ a {
     color:black;
     text-shadow: none;
     border:none;
+    width: 282px;
+    height: 60px;
+    font-size: 24px;
 }
 #allowance {
     background-color:#DBF8FB;
@@ -132,7 +135,7 @@ h2 {
     border:none;
     border-radius: 50%;
     display:inline-block;
-
+    list-style-type:none;
 }
 #how {
     background-color:#9B9B9B;
