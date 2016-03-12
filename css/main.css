@@ -10,8 +10,14 @@ foot-grey-#9B9B9B
 --navtabs
 --color adjustment
 --location location location*/
+* {
+    text-align:center;  
+}
+li {
+    list-style-type: none;
+}
 .navbar {
-    background: linear-gradient(white, grey);
+    background:white;
     box-shadow: 0 0 10px #333;
     text-align:right;
     list-sytle-type: none;
@@ -44,20 +50,8 @@ foot-grey-#9B9B9B
     padding-top: 10px;
     margin: 0 auto;
 }
-.jumbotron {
-    background-image:url('../images/multiracenurse.jpg');
-    margin-bottom: 0px;
-    background-image: src(images/multiracenurses.jpg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    text-align:center;
-}
-#signupbtn {
-    background-color:#C4E428;
-}
+/* Dropdown nav code-->
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -75,4 +69,25 @@ foot-grey-#9B9B9B
 
 .dropdown:hover .dropdown-content {
     display: block;
+}*/
+
+.jumbotron {
+    background-image:url('../images/multiracenurse.jpg');
+    margin-bottom: 0px;
+    background-image: src(images/multiracenurses.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align:center;
+}
+#signupbtn {
+    background-color:#C4E428;
+}
+#allowance {
+    background-color:#DBF8FB;
+}
+#how {
+    background-color:#9B9B9B;
 }
