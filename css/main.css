@@ -14,7 +14,11 @@ foot-grey-#9B9B9B
     font-family:"lato";
     text-align:center;  
 }
-li {
+.nav, .nav-tabs {
+    float: right;
+    display: inline-block;
+}
+/*li {
     list-style-type: none;
 }
 .navbar {
@@ -30,8 +34,8 @@ li {
     font-size: 13px;
     line-height: 17px;
 }
-.navlinks active{
-    border: 2px solid #7EF9FF;
+.navlinks > .sign{
+    border: 3px solid #7EF9FF;
 }
 .navbar-list {
     float: right;
@@ -50,7 +54,7 @@ li {
     max-width: 100%;
     padding-top: 10px;
     margin: 0 auto;
-}
+}*/
 /* Dropdown nav code-->
 
 .dropdown {
@@ -82,7 +86,7 @@ li {
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     text-align:center;
-    padding: ;
+    padding-top: 300px;
 }
 .title {
 
@@ -95,7 +99,6 @@ li {
 }
 #allowance {
     background-color:#DBF8FB;
-
 }
 h2 {
     margin-top:0;
@@ -109,6 +112,8 @@ h2 {
     background-color:#727272;
     border:none;
     border-radius: 50%;
+    display:inline-block;
+
 }
 #how {
     background-color:#9B9B9B;
