@@ -11,6 +11,7 @@ foot-grey-#9B9B9B
 --color adjustment
 --location location location*/
 * {
+    font-family:"lato";
     text-align:center;  
 }
 li {
@@ -81,12 +82,33 @@ li {
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     text-align:center;
+    padding: ;
+}
+.title {
+
 }
 #signupbtn {
     background-color:#C4E428;
+    color:black;
+    text-shadow: none;
+    border:none;
 }
 #allowance {
     background-color:#DBF8FB;
+
+}
+h2 {
+    margin-top:0;
+}
+#allowInfo{
+    display:inline-block;
+}
+.bigDots {
+    height: 4em;
+    width:4em;
+    background-color:#727272;
+    border:none;
+    border-radius: 50%;
 }
 #how {
     background-color:#9B9B9B;
