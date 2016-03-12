@@ -1,5 +1,15 @@
-/*YouStaff logo src("images/nurseanimated.jpg")
-navbar*/
+/*YouStaff Colors
+head/logo aquablue- #7EF9FF
+start button green- #C4E428
+info strip blue-#DBF8FB
+info strip dot- #727272
+foot-grey-#9B9B9B
+*/
+
+/*To Do
+--navtabs
+--color adjustment
+--location location location*/
 .navbar {
     background: linear-gradient(white, grey);
     box-shadow: 0 0 10px #333;
@@ -13,7 +23,9 @@ navbar*/
     font-size: 13px;
     line-height: 17px;
 }
-
+.navlinks active{
+    border: 2px solid #7EF9FF;
+}
 .navbar-list {
     float: right;
     margin-top: 5px;
@@ -42,6 +54,9 @@ navbar*/
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     text-align:center;
+}
+#signupbtn {
+    background-color:#C4E428;
 }
 .dropdown {
     position: relative;
