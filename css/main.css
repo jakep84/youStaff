@@ -18,6 +18,15 @@ foot-grey-#9B9B9B
     float: right;
     display: inline-block;
 }
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+        background-color: green;
+}
+#logo {
+    float:left;
+}
+a {
+    margin-top: 9px;
+}
 /*li {
     list-style-type: none;
 }
