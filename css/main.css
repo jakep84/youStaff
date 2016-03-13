@@ -179,7 +179,7 @@ h2 {
     display:inline-block;
 }
 .foot{
-    background-color:green;
+    background-color:#9B9B9B;
 }
 table.create {
  margin:0;
@@ -201,16 +201,11 @@ table.create {
     height: 10rem;
 }
 /* New stuff*/
-.boot{ 
-border: 1px solid orange;
-}
+.boot { 
+/*border: 1px solid orange;
+*/}
 .theFooter {
 width:450px;
 text-align:center;
-border: 1px solid red;
-height: 20rem;
-
-}
-section > table {
-    background-color:green;
+height: 2rem;
 }
