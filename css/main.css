@@ -137,28 +137,26 @@ h2 {
 .cases .devices {
     width:33.333333%;
     display:inline-block;
-    background-color:#DBF8FB;
+    background-color:#EBEAEA;
 }
 .section.cases {
-    background-color:#DBF8FB;
+    background-color:#EBEAEA;
 }
 div.container{
     margin:auto auto;
     text-align:center;
-    background-color:#DBF8FB;
+    background-color:#212121;
+    color:white;
 } 
 h2 {
     background-color:#DBF8FB;
 }
 .casesTitle {
-    background-color:#DBF8FB;
+    background-color:#EBEAEA;
     margin-bottom:0px;
 }
 .howItWorks {
-    color:#9B9B9B;
-}
-#how {
-    background-color:#9B9B9B;
+    background-color:#212121;
 }
 .iconbox > div {
     text-align: center;
