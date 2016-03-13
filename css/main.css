@@ -105,10 +105,11 @@ a {
     background-repeat: no-repeat;
     color: white;
     text-align:center;
-    padding-top: 300px;
+    padding-top: 366px;
+    height: 83rem;
 }
-.title {
-
+.jumbotron > p {
+    font-size: 38px;
 }
 #signupbtn {
     background-color:#C4E428;
@@ -139,4 +140,16 @@ h2 {
 }
 #how {
     background-color:#9B9B9B;
+}
+iconbox {
+    height: 128px;
+    padding: 20px;
+}
+.iconbox > div {
+    text-align: center;
+    width: 128px;
+    display: inline-block;
+}
+.iconbox p {
+    margin: 0;
 }
