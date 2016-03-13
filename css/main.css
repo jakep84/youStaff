@@ -18,6 +18,7 @@ foot-grey-#9B9B9B
     background-color:#FFF;
     color:#9B9B9B;
     padding: 0px 39px;
+    height:84px;
 }
 .nav, .nav-tabs {
     float: right;
@@ -26,12 +27,13 @@ foot-grey-#9B9B9B
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     background-color: white;
     color:#9B9B9B;
+    border:2px solid #7EF9FF;
     margin-top: 23px;
-    border: 3px solid #7EF9FF;
 }
 #logo {
     float:left;
-    height: 86px;
+    height: 65px;
+    margin-top: 7px;
 }
 .navpills {
     color:#9B9B9B;
@@ -97,7 +99,7 @@ a {
 }*/
 
 .jumbotron {
-    background-image:url('../images/multiracenurse.jpg');
+    background-image:url('../images/docBac.jpg');
     margin-bottom: 0px;
     background-image: src(images/multiracenurses.jpg);
     background-position: 0% 25%;
@@ -112,38 +114,51 @@ a {
     font-size: 38px;
 }
 #signupbtn {
-    background-color:#C4E428;
-    color:black;
+    background-color:transparent;
+    color:white;
     text-shadow: none;
-    border:none;
+    border:2px solid white;
     width: 282px;
     height: 60px;
     font-size: 24px;
 }
-#allowance {
-    background-color:#DBF8FB;
+p.scrollPrompt {
+    font-size: 1.5em;
+    margin-top: 160px;
 }
 h2 {
     margin-top:0;
+    margin-bottom:0;
 }
-#allowInfo{
+/*#allowInfo{
     display:inline-block;
+}*/
+
+.cases .devices {
+    width:33.333333%;
+    display:inline-block;
+    background-color:#DBF8FB;
 }
-.bigDots {
-    height: 4em;
-    width:4em;
-    background-color:#727272;
-    border:none;
-    border-radius: 50%;
-    display:inline-block;
-    list-style-type:none;
+.section.cases {
+    background-color:#DBF8FB;
+}
+div.container{
+    margin:auto auto;
+    text-align:center;
+    background-color:#DBF8FB;
+} 
+h2 {
+    background-color:#DBF8FB;
+}
+.casesTitle {
+    background-color:#DBF8FB;
+    margin-bottom:0px;
+}
+.howItWorks {
+    color:#9B9B9B;
 }
 #how {
     background-color:#9B9B9B;
-}
-iconbox {
-    height: 128px;
-    padding: 20px;
 }
 .iconbox > div {
     text-align: center;
@@ -152,4 +167,18 @@ iconbox {
 }
 .iconbox p {
     margin: 0;
+}
+.created {
+    height: 22rem;
+    padding-top: 0px;
+    display:inline-block;
+}
+table.create {
+ margin:0;
+}
+td {
+    margin-top:0px;
+}
+#createdTitle{
+    font-weight:bold;
 }
