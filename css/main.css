@@ -139,8 +139,13 @@ h2 {
     display:inline-block;
     background-color:#EBEAEA;
 }
-.section.cases {
+.cases {
     background-color:#EBEAEA;
+    height: 50rem;
+    padding-top:84px;
+}
+.devices {
+    margin-top:58px;
 }
 div.container{
     margin:auto auto;
@@ -154,6 +159,7 @@ h2 {
 .casesTitle {
     background-color:#EBEAEA;
     margin-bottom:0px;
+    height: 89px;
 }
 .howItWorks {
     background-color:#212121;
@@ -179,4 +185,8 @@ td {
 }
 #createdTitle{
     font-weight:bold;
+}
+.footer {
+    background-color:#EBEAEA;
+    height: 10rem;
 }
