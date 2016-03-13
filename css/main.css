@@ -154,7 +154,7 @@ div.container{
     color:white;
 } 
 h2 {
-    background-color:#DBF8FB;
+    background-color:#212121;
 }
 .casesTitle {
     background-color:#EBEAEA;
@@ -185,6 +185,15 @@ td {
 }
 #createdTitle{
     font-weight:bold;
+}
+.signupbtn {
+    text-shadow: none;
+    width: 282px;
+    height: 60px;
+    font-size: 24px;
+    background-color:transparent;
+    color:#9B9B9B;
+    border: 2px solid #7EF9FF;
 }
 .footer {
     background-color:#EBEAEA;
