@@ -196,6 +196,12 @@ table.create {
     color:#9B9B9B;
     border: 2px solid #7EF9FF;
 }
+.div {
+    color:#FFF;
+    border:3px dashed maroon;
+    background-color:#212121;
+    height:200px;
+}
 .footer {
     background-color:#EBEAEA;
     height: 10rem;
