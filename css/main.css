@@ -167,7 +167,6 @@ h2 {
     background-color:#212121;
 }
 .howTitle {
-    border-bottom:1px solid #9B9B9B;
     color:#FFF;
     font-size:28px;
     margin-top:6px;
@@ -197,8 +196,9 @@ h2 {
 table.create {
  margin:0;
 }
-#createdTitle{
+#createdTitle {
     font-weight:bold;
+    font-size:28px;
 }
 .signupbtn {
     text-shadow: none;
@@ -212,7 +212,6 @@ table.create {
 .div {
     padding:50px 229px;
     color:#FFF;
-    border:3px dashed maroon;
     background-color:#212121;
     height:200px;
 }
@@ -227,8 +226,8 @@ table.create {
     width: 600px;
 }
 .picRight {
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 .footer {
     background-color:#EBEAEA;
