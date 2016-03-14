@@ -109,7 +109,7 @@ a {
     color: white;
     text-align:center;
     padding-top: 366px;
-    height: 83rem;
+    height: 86rem;
     font-size: 46px;
 }
 .jumbotron > p {
@@ -167,6 +167,7 @@ h2 {
     background-color:#212121;
 }
 .howTitle {
+    border-bottom:1px solid #9B9B9B;
     color:#FFF;
     font-size:28px;
     margin-top:6px;
