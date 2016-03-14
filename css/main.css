@@ -195,8 +195,9 @@ h2 {
     padding-top: 0px;
     display:inline-block;
 }
-.createdBy {
+#createdBy {
     padding-top:20px;
+    padding-left: 227px;
 }
 #nurseFoldedArms {
     width:500px;
@@ -255,6 +256,18 @@ table.create {
     padding-left: 192px;
     text-align:left;
     height: 2rem;
+}
+.theFootIcons {
+    padding-left:67px;
+}
+.bottomIcons {
+    margin-right: 5px;
+    display: inline;
+    height: 45px;
+    width: 45px;
+    }
+.up {
+    padding-bottom:19px;
 }
 .copyright {
     height:50px;
