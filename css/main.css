@@ -311,9 +311,9 @@ table.create {
 
 .modalDialog > div {
     width: 500px;
-    height: 600px;
+    height: 620px;
     position: relative;
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -383,4 +383,10 @@ table.create {
 .nextClick {
     width: 295px;
     height: 60px;
+    font-size:18px;
+    border-radius:5px;
+    color:white;
+}
+.terms {
+    color:#7EF9FF;
 }
