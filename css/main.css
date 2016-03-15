@@ -280,7 +280,7 @@ table.create {
     display: inline;
     height: 45px;
     width: 45px;
-    }
+}
 .up {
     padding-bottom:19px;
 }
@@ -288,10 +288,10 @@ table.create {
     height:50px;
     padding-top:15px;
 }
-
+/*-----Sign---Up---Modals----*/
 .modalDialog {
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"lato";
     top: 0;
     right: 0;
     bottom: 0;
@@ -303,6 +303,7 @@ table.create {
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+
 }
 .modalDialog:target {
     opacity:1;
@@ -317,10 +318,10 @@ table.create {
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
+/*    background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
-}
+*/}
 .close {
     background: #606061;
     color: #FFFFFF;
@@ -341,7 +342,7 @@ table.create {
 }
 
 .close:hover { 
-    background: #00d9ff; 
+    background: #7EF9FF; 
 }
 .modalLogo {
     height:30%;
@@ -380,12 +381,23 @@ table.create {
     text-align: left;
     padding-left: 19px;
 }
+.remember_me {
+    color:#9B9B9B;
+}
 .nextClick {
-    width: 295px;
+    margin-top: 8px;
+    width: 254px;
+    padding-top: 20px;
     height: 60px;
     font-size:18px;
     border-radius:5px;
     color:white;
+    background-color:#9B9B9B;
+    border:none;
+}
+.login-help {
+     padding-top:15px;
+     color:#9B9B9B;
 }
 .terms {
     color:#7EF9FF;

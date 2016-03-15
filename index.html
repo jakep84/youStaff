@@ -34,7 +34,7 @@
       <li><a href="#">About Us</a></li>
     </ul>
   </li>
-  <li class=" active"><a id="signUp" href="#openModal">Sign Up</a></li>
+  <li class=" active"><a id="signUp" href="#signModal">Sign Up</a></li>
 </ul>
 </div>
 </div>
@@ -44,7 +44,7 @@
 			<div class="jumbotron")>
 			  <h1 class="title"> NURSE STAFFING REVOLUTIONIZED </h1>
 			  <p id="jumbop" class="title">Get assignments faster with less hassle and higher rates</p>
-			  <p><a class="btn btn-primary btn-lg" href="#openModal" id="signupbtn"role="button">GET STARTED NOW</a></p>
+			  <p><a class="btn btn-primary btn-lg" href="#signModal" id="signupbtn"role="button">GET STARTED NOW</a></p>
 			  <p class="scrollPrompt	glyphicon glyphicon-chevron-down"></p>
 			</div>
 </section>
@@ -65,7 +65,7 @@
 			<td id="createdBy" class="container">
 				<h3 id="createdTitle">Created by nurses and a recruiter for nurses.</h3>
 				<p style="font-size: 24px; text-align:left; width:500px;">YouStaff connects nurses with hospitals by removing the agency so you can get the assignments you want faster and negotiate for higher wages. YouStaff You!</p>
-				<p><a class="btn btn-primary btn-lg signupbtn" href="#openModal" id="2"role="button">Sign Up</a></p>
+				<p><a class="btn btn-primary btn-lg signupbtn" href="#signModal" id="2"role="button">Sign Up</a></p>
 			</td>
 			<td>
 				<img id="nurseFoldedArms" src="images/rn-nurse.png" alt="a nurse with her arms folded in disbelief" >
@@ -139,7 +139,7 @@
  </div>
 <!-- <a href="#openModal">Open Modal</a> -->
 
-<div id="openModal" class="modalDialog">
+<div id="signModal" class="modalDialog">
 	<div>
     <div class="login">
       <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
@@ -147,7 +147,36 @@
     font-size: 18px;">SIGN UP</p>
       <div id="activeDot" class="dot">●</div><div class="dot">●</div><div class="dot">●</div>
       <form method="post" action="index.html">
-        <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
+        <p><input type="email" class="modalInputs" name="login" value="" placeholder="Email"></p>
+        <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
+        <p><input type="text" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="text" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>
+        <p><input type="tel" class="modalInputs" name="password" value="" placeholder="(555) 555-5555"></p>
+       <!--  <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p> -->
+        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#signModal2" class="nextClick">NEXT</a>
+      </form>
+    </div>
+    <div class="login-help">
+      <p>By registering, you agree to the<a class="terms" href="index.html"> YouStaff Terms of Service</a></p>
+    </div>
+  		<a href="#close" title="Close" class="close">X</a>
+	</div>
+	</div>
+</div>
+<!-- 2nd modal-------------------------------------->
+<div id="signModal2" class="modalDialog">
+	<div>
+    <div class="login">
+      <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
+      <p style=" margin-bottom: 0px; padding-top: 20px;
+    font-size: 18px;">SIGN UP</p>
+      <div class="dot">●</div><div id="activeDot" class="dot">●</div><div class="dot">●</div>
+      <form method="post" action="index.html">
+        <!-- <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
         <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
         <p><input type="password" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="password" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>
         <p><input type="password" class="modalInputs" name="password" value="" placeholder="(555) 555-5555"></p>
@@ -156,8 +185,37 @@
             <input type="checkbox" name="remember_me" id="remember_me">
             Remember me on this computer
           </label>
-        </p>
-        <p class="submit"><input type="submit" class="nextClick" name="commit" value="NEXT"></p>
+        </p> -->
+        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#signModal3">NEXT</a></p>
+      </form>
+    </div>
+    <div class="login-help">
+      <p>By registering, you agree to the<a class="terms" href="index.html"> YouStaff Terms of Service</a></p>
+    </div>
+  		<a href="#close" title="Close" class="close">X</a>
+	</div>
+	</div>
+</div>
+<!-- 3rd modal-------------------------------------->
+<div id="signModal3" class="modalDialog">
+	<div>
+    <div class="login">
+      <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
+      <p style=" margin-bottom: 0px; padding-top: 20px;
+    font-size: 18px;">SIGN UP</p>
+      <div class="dot">●</div><div class="dot">●</div><div id="activeDot" class="dot">●</div>
+      <form method="post" action="index.html">
+        <!-- <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
+        <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
+        <p><input type="password" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="password" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>
+        <p><input type="password" class="modalInputs" name="password" value="" placeholder="(555) 555-5555"></p>
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p> -->
+        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#signModal">NEXT</a></p>
       </form>
     </div>
     <div class="login-help">
