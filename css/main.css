@@ -17,7 +17,7 @@ foot-grey-#9B9B9B
 .navbar {
     background-color:#FFF;
     color:#9B9B9B;
-    padding: 0px 39px;
+    padding: 0px 17em;
     height:84px;
 }
 .nav {
@@ -109,8 +109,9 @@ a {
     color: white;
     text-align:center;
     padding-top: 366px;
-    height: 86rem;
+    height: 101rem;
     font-size: 46px;
+    padding-bottom: 1em;
 }
 .jumbotron > p {
     font-size: 32px;
@@ -289,7 +290,7 @@ table.create {
     padding-top:15px;
 }
 /*-----Sign---Up---Modals----*/
-.modalDialog {
+.modalDialog, .modalDial3, .modalSubscribe, .lastModal{
     position: fixed;
     font-family:"lato";
     top: 0;
@@ -314,7 +315,7 @@ table.create {
     width: 500px;
     height: 600px;
     position: relative;
-    margin: 1% auto;
+    margin: 5% auto;
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -327,6 +328,16 @@ table.create {
     height: 750px;
     position:relative;
     margin: 1% auto;
+    padding: 25px 26px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    opacity:1;
+}
+.lastModal > div{ 
+    width: 800px;
+    height: 500px;
+    position:relative;
+    margin: 5% auto;
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -414,4 +425,13 @@ table.create {
 .terms {
     color:#7EF9FF;
 }
-
+.modalSubscribe > div{ 
+    width: 800px;
+    height: 500px;
+    position:relative;
+    margin: 5% auto;
+    padding: 25px 26px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    opacity:1;
+}

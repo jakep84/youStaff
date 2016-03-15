@@ -24,14 +24,14 @@
 <div class="navbar navbar-default navbar-fixed-top">
    <img id="logo"src="images/YouStaff Logo.png" height="43" alt="logo">
 <ul class="nav nav-pills">
-  <li><a href=".howTitle">How it Works</a></li>
+  <li><a href="#how">How it Works</a></li>
   <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#cre">About Us
     </a>
     </li>
     <ul class="dropdown-menu">
-      <li><a href="#">How it Works</a></li>
-      <li><a href="#">About Us</a></li>
+      <li><a href="#how">How it Works</a></li>
+      <li><a href="#cre">About Us</a></li>
     </ul>
   </li>
   <li class=" active"><a id="signUp" href="#signModal">Sign Up</a></li>
@@ -44,11 +44,11 @@
 			<div class="jumbotron")>
 			  <h1 class="title"> NURSE STAFFING REVOLUTIONIZED </h1>
 			  <p id="jumbop" class="title">Get assignments faster with less hassle and higher rates</p>
-			  <p><a class="btn btn-primary btn-lg" href="#signModal" id="signupbtn"role="button">GET STARTED NOW</a></p>
+			  <p><a class="btn btn-primary btn-lg" href="#subscribeModal" id="signupbtn"role="button">GET STARTED NOW</a></p>
 			  <p class="scrollPrompt	glyphicon glyphicon-chevron-down"></p>
 			</div>
 </section>
-<section class="cases">
+<section id="cre" class="cases">
     <h2 class="casesTitle"> YouStaff allows nurses to:</h2>
  <div class="row">   
   <div class="devices">
@@ -87,7 +87,7 @@
 		</table>
 	</div>
 </section> -->
-<section style="background-color:#212121;">
+<section id="how" style="background-color:#212121;">
 <div>
 <h2 class="howTitle">HOW IT WORKS</h2>
 <div class="underline"></div>
@@ -114,7 +114,7 @@
 </div>
 </section>
 <div class="dumbo">
-<section style="margin: 0px auto; margin: 0px auto; padding:0px 20px 0px 40px;">
+<section style="margin: 0px auto; margin: 0px auto; padding:0px 20px 0px 280px;">
  <table>
 <tbody><tr class="boot"> 
   <td class="theFooter">Contact Us
@@ -287,7 +287,7 @@
             Remember me on this computer
           </label>
         </p> -->
-        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#signModal4">CREATE PROFILE</a></p>
+        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#signModal3">CREATE PROFILE</a></p>
       </form>
     </div>
     <div class="login-help">
@@ -295,5 +295,113 @@
     </div>
   		<a href="#close" title="Close" class="close">X</a>
 	</div>
+
+</div>
+<!-----------------subscribe page---------->
+<!-- <div id="lastModal" class="lastModal">
+	<div>
+    <div class="login">
+    <div class="login-help">
+      <p>By registering, you agree to the<a class="terms" href="index.html"> YouStaff Terms of Service</a></p>
+    </div>
+  		<a href="#close" title="Close" class="close">X</a>
+	</div>
+	</div>
+</div> -->
+<!-- <div id="lastModal" class="lastModal"> -->
+<div id="signModal3" class="modalDialog modalDial3">
+	<div style="">
+    <div class="login">
+      <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
+      <p style=" margin-bottom: 0px; padding-top: 20px;
+    font-size: 18px;">ADD CREDENTIALS</p>
+      <div class="dot">●</div><div class="dot">●</div><div id="activeDot" class="dot">●</div>
+      <form method="post" action="index.html">
+      		<p id="locSub">Select Your Highest Level of Education.</p>
+      		<p><input type="text" class="modalInputs" name="login" value="" placeholder="Education"></p>
+      		<div class="modalUnderline"></div>
+      		<p class="modalSubs">Select Your Certifications.</p>
+      		<!-- <table>
+      		<tr>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Basic Life Support (BLS)</p></td>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Emergency Nursing Pediatric Course (ENPC)</p></td>
+      		</tr>
+      		<tr>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Advanced Cardia Life Support (ACLS)</p></td>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Neonatal Resuscitation Program (NRP)</p></td>
+      		</tr>
+      		<tr>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Pediatric Advanced Life Support (PALS)</p></td>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Trauma Nursing Core Course (TNCC)</p></td>
+      		</tr>
+      		</table> -->
+
+
+<table style=" margin: 0px auto; width: 100%">
+  <tr>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Basic Life Support (BLS)</span>
+      </label>
+    </td>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Emergency Nursing Pediatric Course (ENPC)</span>
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Advanced Cardia Life Support (ACLS)</span>
+      </label>
+    </td>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Neonatal Resuscitation Program (NRP)</span>
+      </label>
+    </td>
+  </tr>
+  <tr>
+        <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Pediatric Advanced Life Support (PALS)</span>
+      </label>
+    </td>
+        <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Trauma Nursing Core Course (TNCC)</span>
+      </label>
+    </td>
+  </tr>
+  </table>
+      		<div class="modalUnderline"></div>
+      		<p id="locSub">Select Your Active State Liscence(s).</p>
+      		<p><input type="password" class="modalNameInputs" name="password" value="" placeholder="State"><input type="password" class="modalNameInputs" name="password" value="" placeholder=""></p>
+        <!-- <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
+        <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
+        <p><input type="password" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="password" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>
+        <p><input type="password" class="modalInputs" name="password" value="" placeholder="(555) 555-5555"></p>
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p> -->
+        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#lastModal">CREATE PROFILE</a></p>
+      </form>
+    </div>
+    <div class="login-help">
+      <p>By registering, you agree to the<a class="terms" href="index.html"> YouStaff Terms of Service</a></p>
+    </div>
+  		<a href="#close" title="Close" class="close">X</a>
+	</div>
+
 </div>
 </html>
