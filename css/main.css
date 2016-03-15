@@ -24,7 +24,7 @@ foot-grey-#9B9B9B
     float: right;
     display: inline-block;
 }
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.nav-pills>li.active>a{
     background-color: white;
     color:#9B9B9B;
     border:2px solid #7EF9FF;
@@ -137,7 +137,7 @@ h2 {
 }*/
 
 .cases .devices {
-    width:33.333333%;
+    width:25%;
     display:inline-block;
     background-color:#EBEAEA;
 }
@@ -159,8 +159,8 @@ div.container{
     background-color:#212121;
     color:white;
 } 
-h2 {
-    background-color:#212121;
+.howTitle {
+    font-size:28px;
 }
 .casesTitle {
     background-color:#EBEAEA;
@@ -173,10 +173,18 @@ h2 {
 .howTitle {
     color:#FFF;
     font-size:28px;
-    margin-top:6px;
+    margin:6px auto;
     padding-top:60px;
     height:90px;
     font-weight:bold;
+    padding-bottom: 3px;
+    width:290px;
+}
+.underline {
+    height:20px;
+    margin-left: 43%;
+    border-bottom: 1px solid #FFF;
+    width: 200px;
 }
 .squeeze {
     width:50px;
@@ -191,29 +199,35 @@ h2 {
     margin: 0;
 }
 .created {
-    height: 37.80rem;
+    height: 47rem;
     padding-top: 0px;
     display:inline-block;
 }
 #createdBy {
+    padding-bottom:35px;
     padding-top:20px;
     padding-left: 227px;
 }
 #nurseFoldedArms {
-    width:500px;
+    padding-top:62px;
+    width:54.85rem;
+    margin-right:8rem;
 }
 .foot{
     background-color:#9B9B9B;
 }
 table.create {
- margin:0;
+    margin:0;
 }
 #createdTitle {
+    padding-bottom:3rem;
     font-weight:bold;
     font-size:28px;
     text-align:left;
 }
 .signupbtn {
+    margin-top:31px;
+    float:left;
     text-shadow: none;
     width: 282px;
     height: 60px;
@@ -223,7 +237,7 @@ table.create {
     border: 2px solid #7EF9FF;
 }
 .div {
-    padding:50px 229px;
+    padding:50px 349px;
     color:#FFF;
     background-color:#212121;
     height:282px;
@@ -237,7 +251,7 @@ table.create {
     font-weight:bold;
 }
 .picText {
-    width: 426px;
+    width: 456px;
 }
 .picRight {
     height:150px;
@@ -258,6 +272,7 @@ table.create {
     height: 2rem;
 }
 .theFootIcons {
+    padding-top:4px;
     padding-left:67px;
 }
 .bottomIcons {
