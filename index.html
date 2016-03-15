@@ -202,7 +202,8 @@
 </div>
 <!-- 3rd modal-------------------------------------->
 <div id="signModal3" class="modalDialog">
-	<div>
+	<div style="width: 600px;
+    height: 750px;">
     <div class="login">
       <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
       <p style=" margin-bottom: 0px; padding-top: 20px;
@@ -210,7 +211,72 @@
       <div class="dot">●</div><div class="dot">●</div><div id="activeDot" class="dot">●</div>
       <form method="post" action="index.html">
       		<p id="locSub">Select Your Highest Level of Education.</p>
-      		<p><input type="text" class="modalInputs" name="login" value="" placeholder="Education"><span style="float:right;">▾</span></p>
+      		<p><input type="text" class="modalInputs" name="login" value="" placeholder="Education"></p>
+      		<div class="modalUnderline"></div>
+      		<p class="modalSubs">Select Your Certifications.</p>
+      		<!-- <table>
+      		<tr>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Basic Life Support (BLS)</p></td>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Emergency Nursing Pediatric Course (ENPC)</p></td>
+      		</tr>
+      		<tr>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Advanced Cardia Life Support (ACLS)</p></td>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Neonatal Resuscitation Program (NRP)</p></td>
+      		</tr>
+      		<tr>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Pediatric Advanced Life Support (PALS)</p></td>
+      			<td><input type="checkbox" class="certs" name="certifications" value="soccer"><p>Trauma Nursing Core Course (TNCC)</p></td>
+      		</tr>
+      		</table> -->
+
+
+<table style=" margin: 0px auto; width: 100%">
+  <tr>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Basic Life Support (BLS)</span>
+      </label>
+    </td>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Emergency Nursing Pediatric Course (ENPC)</span>
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Advanced Cardia Life Support (ACLS)</span>
+      </label>
+    </td>
+    <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Neonatal Resuscitation Program (NRP)</span>
+      </label>
+    </td>
+  </tr>
+  <tr>
+        <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Pediatric Advanced Life Support (PALS)</span>
+      </label>
+    </td>
+        <td class="checkbox">
+      <label>
+        <input type="checkbox" class="checkbox style-2 " checked="checked">
+        <span>Trauma Nursing Core Course (TNCC)</span>
+      </label>
+    </td>
+  </tr>
+  </table>
+      		<div class="modalUnderline"></div>
+      		<p id="locSub">Select Your Active State Liscence(s).</p>
+      		<p><input type="password" class="modalNameInputs" name="password" value="" placeholder="State"><input type="password" class="modalNameInputs" name="password" value="" placeholder=""></p>
         <!-- <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
         <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
         <p><input type="password" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="password" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>
@@ -221,7 +287,7 @@
             Remember me on this computer
           </label>
         </p> -->
-        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="#signModal">NEXT</a></p>
+        <a class="btn btn-primary btn-lg btn btn-primary btn-lg nextClick" href="www.disneyland.com">CREATE PROFILE</a></p>
       </form>
     </div>
     <div class="login-help">
@@ -230,6 +296,5 @@
   		<a href="#close" title="Close" class="close">X</a>
 	</div>
 	</div>
-</div>
 </body>
 </html>
