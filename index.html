@@ -24,7 +24,7 @@
 <div class="navbar navbar-default navbar-fixed-top">
    <img id="logo"src="images/YouStaff Logo.png" height="43" alt="logo">
 <ul class="nav nav-pills">
-  <li><a href="#">How it Works</a></li>
+  <li><a href=".howTitle">How it Works</a></li>
   <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us
     </a>
@@ -173,9 +173,13 @@
     <div class="login">
       <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
       <p style=" margin-bottom: 0px; padding-top: 20px;
-    font-size: 18px;">SIGN UP</p>
+    font-size: 18px;">ADD LOCATION</p>
       <div class="dot">●</div><div id="activeDot" class="dot">●</div><div class="dot">●</div>
       <form method="post" action="index.html">
+      <p><input type="text" class="modalInputs" name="login" value="" placeholder="Address"></p>
+      <p><input type="text" class="modalInputs" name="login" value="" placeholder="Unit #,ect."></p>
+      <p><input type="text" class="modalInputs" name="login" value="" placeholder="City"></p>
+      <p><input type="text" class="modalNameInputs" name="password" value="State" placeholder="First Name" style="color:#9B9B9B"><input type="text" class="modalNameInputs" name="password" value="" placeholder="Zip"></p>
         <!-- <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
         <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
         <p><input type="password" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="password" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>
@@ -202,9 +206,11 @@
     <div class="login">
       <img class="modalLogo" src="images/YouStaff Logo.png"></h1>
       <p style=" margin-bottom: 0px; padding-top: 20px;
-    font-size: 18px;">SIGN UP</p>
+    font-size: 18px;">ADD CREDENTIALS</p>
       <div class="dot">●</div><div class="dot">●</div><div id="activeDot" class="dot">●</div>
       <form method="post" action="index.html">
+      		<p id="locSub">Select Your Highest Level of Education.</p>
+      		<p><input type="text" class="modalInputs" name="login" value="" placeholder="Education"><span style="float:right;">▾</span></p>
         <!-- <p><input type="text" class="modalInputs" name="login" value="" placeholder="Email"></p>
         <p><input type="password" class="modalInputs" name="password" value="" placeholder="Choose Password"></p>
         <p><input type="password" class="modalNameInputs" name="password" value="" placeholder="First Name"><input type="password" class="modalNameInputs" name="password" value="" placeholder="Last Name"></p>

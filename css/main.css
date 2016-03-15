@@ -371,6 +371,7 @@ table.create {
     font-size: 18px;
     text-align: left;
     padding-left: 19px;
+    color:#9B9B9B;
 }
 .modalNameInputs {
     height:57px;
@@ -380,6 +381,7 @@ table.create {
     font-size: 18px;
     text-align: left;
     padding-left: 19px;
+    color:;
 }
 .remember_me {
     color:#9B9B9B;
