@@ -10,15 +10,22 @@ foot-grey-#9B9B9B
 --navtabs
 --color adjustment
 --location location location*/
+/*tab 4= 800 x 1280 */
 * {
     font-family:"lato";
     text-align:center;  
 }
+body {
+    width:82rem; /*Samsung tab 4 */
+}
 .navbar {
     background-color:#FFF;
     color:#9B9B9B;
-    padding: 0px 17em;
-    height:84px;
+ /* padding: 0px 17em; laptop */ 
+    padding: 0px 44px; /*tab4*/
+    width:800px; /*tab4*/
+ /* height:84px;    laptop*/ 
+    height:81px; /*tab4*/
 }
 .nav {
     float: right;
@@ -108,8 +115,8 @@ a {
     background-repeat: no-repeat;
     color: white;
     text-align:center;
-    padding-top: 366px;
-    height: 101rem;
+    padding-top: 507px;
+    height: 130rem;
     font-size: 46px;
     padding-bottom: 1em;
 }
@@ -117,6 +124,7 @@ a {
     font-size: 32px;
 }
 #signupbtn {
+    margin-top:4rem; /*tab 4*/
     background-color:transparent;
     color:white;
     text-shadow: none;
@@ -127,7 +135,8 @@ a {
 }
 p.scrollPrompt {
     font-size: 1.5em;
-    margin-top: 160px;
+ /* margin-top: 160px; laptop */
+    margin-top: 387px;;
 }
 h2 {
     margin-top:0;
@@ -183,9 +192,11 @@ div.container{
 }
 .underline {
     height:20px;
-    margin-left: 43%;
+    margin-left: 39%; /*tab 4*/
+/*  margin-left: 43%; laptop*/
     border-bottom: 1px solid #FFF;
-    width: 200px;
+/*  width: 200px; laptop*/
+    width:186px; /*tab 4*/
 }
 .squeeze {
     width:50px;
@@ -207,12 +218,21 @@ div.container{
 #createdBy {
     padding-bottom:35px;
     padding-top:20px;
-    padding-left: 227px;
+    /*padding-left: 35px;*/
+    padding-left: 44px;
 }
 #nurseFoldedArms {
-    padding-top:62px;
+        padding-right: 25px;
+    padding-top: 183px;
+    width: 40.85rem;
+    margin-right: 0rem;
+
+    /*padding-top: 162px;
+    width: 40.85rem;
+    margin-right: 0rem;*/
+    /*padding-top:62px;
     width:54.85rem;
-    margin-right:8rem;
+    margin-right:8rem;*/
 }
 .foot{
     background-color:#9B9B9B;
@@ -238,7 +258,8 @@ table.create {
     border: 2px solid #7EF9FF;
 }
 .div {
-    padding:50px 349px;
+    padding:50px 85px; /*tab4*/
+/*  padding:50px 349px; laptop*/
     color:#FFF;
     background-color:#212121;
     height:282px;
@@ -267,8 +288,10 @@ table.create {
     font-size: 18px;
 }
 .theFooter {
-    width:450px;
-    padding-left: 192px;
+    width: 248px;
+ /*   width:450px;    laptop*/
+ /* padding-left: 192px; laptop*/
+    padding-left: 98px; /*tab 4*/
     text-align:left;
     height: 2rem;
 }
@@ -315,7 +338,8 @@ table.create {
     width: 500px;
     height: 600px;
     position: relative;
-    margin: 5% auto;
+    margin: 37% 16%;
+ /* margin: 5% auto; laptop */
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -327,7 +351,8 @@ table.create {
     width: 600px;
     height: 750px;
     position:relative;
-    margin: 1% auto;
+    margin: 32% 11%;
+  /*  margin: 1% auto;*/
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -337,7 +362,7 @@ table.create {
     width: 800px;
     height: 500px;
     position:relative;
-    margin: 5% auto;
+    margin: 37% 16%;
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
