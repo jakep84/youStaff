@@ -16,16 +16,18 @@ foot-grey-#9B9B9B
     text-align:center;  
 }
 body {
-    width:82rem; /*Samsung tab 4 */
+    width: 144rem; /*laptop*/
+   /* width:82rem; Samsung tab 4 */
 }
 .navbar {
     background-color:#FFF;
     color:#9B9B9B;
- /* padding: 0px 17em; laptop */ 
-    padding: 0px 44px; /*tab4*/
-    width:800px; /*tab4*/
- /* height:84px;    laptop*/ 
-    height:81px; /*tab4*/
+    padding: 0px 17em; /*laptop */ 
+/*  padding: 0px 44px; /*tab4*/
+ /*   width:800px; /*tab4*/
+    width: 144rem; /*laptop*/
+    height:84px;  /*laptop*/ 
+/*  height:81px; /*tab4*/
 }
 .nav {
     float: right;
@@ -115,7 +117,7 @@ a {
     background-repeat: no-repeat;
     color: white;
     text-align:center;
-    padding-top: 507px;
+    padding-top: 25rem;
     height: 130rem;
     font-size: 46px;
     padding-bottom: 1em;
@@ -135,8 +137,8 @@ a {
 }
 p.scrollPrompt {
     font-size: 1.5em;
- /* margin-top: 160px; laptop */
-    margin-top: 387px;;
+    margin-top: 160px; /*laptop */
+ /* margin-top: 387px; tab4*/
 }
 h2 {
     margin-top:0;
@@ -192,11 +194,11 @@ div.container{
 }
 .underline {
     height:20px;
-    margin-left: 39%; /*tab 4*/
-/*  margin-left: 43%; laptop*/
+/*  margin-left: 39%; /*tab 4*/
+    margin-left: 43%; /*laptop*/
     border-bottom: 1px solid #FFF;
-/*  width: 200px; laptop*/
-    width:186px; /*tab 4*/
+    width: 200px; /*laptop*/
+/*  width:186px; /*tab 4*/
 }
 .squeeze {
     width:50px;
@@ -218,21 +220,18 @@ div.container{
 #createdBy {
     padding-bottom:35px;
     padding-top:20px;
-    /*padding-left: 35px;*/
-    padding-left: 44px;
+    padding-left: 25rem; 
+/* padding-left: 44px; /*tab4*/
 }
 #nurseFoldedArms {
-        padding-right: 25px;
+/*        padding-right: 25px;
     padding-top: 183px;
     width: 40.85rem;
     margin-right: 0rem;
-
-    /*padding-top: 162px;
-    width: 40.85rem;
-    margin-right: 0rem;*/
-    /*padding-top:62px;
+*/
+    padding-top:62px;
     width:54.85rem;
-    margin-right:8rem;*/
+    margin-right:8rem;
 }
 .foot{
     background-color:#9B9B9B;
@@ -258,8 +257,8 @@ table.create {
     border: 2px solid #7EF9FF;
 }
 .div {
-    padding:50px 85px; /*tab4*/
-/*  padding:50px 349px; laptop*/
+ /* padding:50px 85px; /*tab4*/
+    padding:50px 25rem; /*laptop*/
     color:#FFF;
     background-color:#212121;
     height:282px;
@@ -282,7 +281,7 @@ table.create {
 .dumbo {
     background-color:#EBEAEA;
     height: 15rem;
-    padding-top: 2.75em;
+    padding: 2.75em 31rem;
 }
 .boot { 
     font-size: 18px;
@@ -338,8 +337,8 @@ table.create {
     width: 500px;
     height: 600px;
     position: relative;
-    margin: 37% 16%;
- /* margin: 5% auto; laptop */
+/*  margin: 37% 16%; tab 4*/
+    margin: 5% auto; 
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -351,8 +350,8 @@ table.create {
     width: 600px;
     height: 750px;
     position:relative;
-    margin: 32% 11%;
-  /*  margin: 1% auto;*/
+ /* margin: 32% 11%; tab 4*/
+    margin: 1% auto;
     padding: 25px 26px 13px 20px;
     border-radius: 10px;
     background: #fff;
